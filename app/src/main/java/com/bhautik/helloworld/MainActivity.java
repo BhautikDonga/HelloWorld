@@ -25,9 +25,9 @@ public class MainActivity extends AppCompatActivity {//implements View.OnClickLi
     }
 
     public void toggle(View v) {
-        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://start.duckduckgo.com"));
-        startActivity(intent);
-        //startActivity(new Intent(this, Settings.class));
+//        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://start.duckduckgo.com"));
+//        startActivity(intent);
+        startActivity(new Intent(this, Settings.class));
     }
 
 
